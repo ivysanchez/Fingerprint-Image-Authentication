@@ -64,7 +64,7 @@ Non-Binary Labeled:
 ### Problem Formulation
 
 * **Input**: 224×224 RGB fingerprint image
-* **Output**: Class label (0 = 'Real', 1 = 'Altered')
+* **Output**: Class label (1 = 'Real', 0 = 'Altered')
 * **Task**: Binary image classification
 
 
