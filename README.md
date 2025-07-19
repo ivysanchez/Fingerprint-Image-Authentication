@@ -1,4 +1,4 @@
-# Fingerprint-Image-Authentication Project
+# Fingerprint Image Authentication Project
 
 ![](UTA-DataScience-Logo.png)
 
