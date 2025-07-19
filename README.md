@@ -40,6 +40,8 @@ The goal of this project is to detect altered fingerprints in image data. The ta
 
 
 Batch of images below---
+
+
 Binary Labeled:
 <img width="793" height="812" alt="Unknown-17" src="https://github.com/user-attachments/assets/acdb9e7d-95b8-4181-a623-7a496be3d1c9" />
 
