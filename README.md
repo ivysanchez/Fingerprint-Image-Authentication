@@ -37,7 +37,9 @@ The goal of this project is to detect altered fingerprints in image data. The ta
 * Normalization image pixels
 * A smaller subset of the SOCOFing dataset was created, containing 100 images per class ('Real' and 'Altered') for both training and testing. This resulted in 80 training images per class and 20 testing images per class.
 * Dataset loaded using image_dataset_from_directory with batch prefetching to create TensorFlow Dataset objects for training and validation
-* A couple of images used
+
+
+Batch of images below---
 
 Binary Labeled:
 <img width="793" height="812" alt="Unknown-17" src="https://github.com/user-attachments/assets/27ae02c7-cc4f-41fb-9e7d-c628a2a95d96" />
@@ -45,6 +47,7 @@ Binary Labeled:
 
 Non-Binary Labeled:
 <img width="966" height="990" alt="Unknown-18" src="https://github.com/user-attachments/assets/2869676e-7a2c-4fcf-bbd2-02a90e954c48" />
+
 
 
 
@@ -81,12 +84,31 @@ Non-Binary Labeled:
 * Models were trained for 10 epochs.
 * Metrics: Accuracy, ROC-AUC
 
+ResNet50 (Baseline) training/validation:
+<img width="1189" height="590" alt="Unknown-24" src="https://github.com/user-attachments/assets/881296c5-fcc8-46b0-bd74-d9b4e40123fe" />
+
+
+MobileNetV2 training/validation:
+<img width="1189" height="590" alt="Unknown-25" src="https://github.com/user-attachments/assets/a742d1de-097e-4fcd-8d34-06060cf19bf1" />
+
+EfficientNetB0 training/validation:
+<img width="1189" height="590" alt="Unknown-26" src="https://github.com/user-attachments/assets/5d9b2b9f-81e6-464a-854d-37c8650d802a" />
 
 
 
 
 ***
 ### Conclusions
+
+Model Comparison (With Augmentation - ResNet50)
+* The performance of the ResNet50 model with and without data augmentation was compared using ROC curves and AUC scores on the validation set.
+* **Results**:
+  * ResNet50 (Baseline) AUC: 0.9125
+  * ResNet50 (Augmented) AUC: 0.9250
+* Data augmentation slightly improved the performance of the ResNet50 model.
+<img width="691" height="701" alt="Unknown-16" src="https://github.com/user-attachments/assets/f548688f-9161-4bef-9f2e-ffa2c8343dca" />
+
+
 
 Model Comparison (No Augmentation)
 * The performance of the ResNet50, MobileNetV2, and EfficientNetB0 models without data augmentation was compared using ROC curves and AUC scores on the validation set.
@@ -97,17 +119,6 @@ Model Comparison (No Augmentation)
 *ResNet50 showed the best performance in this comparison.
 <img width="846" height="855" alt="Unknown-15" src="https://github.com/user-attachments/assets/0cdd9bf7-76fb-4bf6-a6b1-72835381dbe0" />
 
-ResNet50 (Baseline) training/validation:
-<img width="1189" height="590" alt="Unknown-24" src="https://github.com/user-attachments/assets/881296c5-fcc8-46b0-bd74-d9b4e40123fe" />
-
-
-Model Comparison (With Augmentation - ResNet50)
-* The performance of the ResNet50 model with and without data augmentation was compared using ROC curves and AUC scores on the validation set.
-* **Results**:
-  * ResNet50 (Baseline) AUC: 0.9125
-  * ResNet50 (Augmented) AUC: 0.9250
-* Data augmentation slightly improved the performance of the ResNet50 model.
-<img width="691" height="701" alt="Unknown-16" src="https://github.com/user-attachments/assets/f548688f-9161-4bef-9f2e-ffa2c8343dca" />
 
 
 ### Future Work
