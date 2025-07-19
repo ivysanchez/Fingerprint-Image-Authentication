@@ -37,7 +37,8 @@ The goal of this project is to detect altered fingerprints in image data. The ta
 * Normalization image pixels
 * A smaller subset of the SOCOFing dataset was created, containing 100 images per class ('Real' and 'Altered') for both training and testing. This resulted in 80 training images per class and 20 testing images per class.
 * Dataset loaded using image_dataset_from_directory with batch prefetching to create TensorFlow Dataset objects for training and validation
-A couple of images used
+* A couple of images used
+
 Binary Labeled:
 <img width="793" height="812" alt="Unknown-17" src="https://github.com/user-attachments/assets/27ae02c7-cc4f-41fb-9e7d-c628a2a95d96" />
 
