@@ -118,7 +118,7 @@ Model Comparison (No Augmentation)
   * ResNet50 AUC: 0.8875
   * MobileNetV2 AUC: 0.8125
   * EfficientNetB0 AUC: 0.8175
-*ResNet50 showed the best performance in this comparison.
+* ResNet50 showed the best performance in this comparison.
 <img width="846" height="855" alt="Unknown-15" src="https://github.com/user-attachments/assets/0cdd9bf7-76fb-4bf6-a6b1-72835381dbe0" />
 
 
