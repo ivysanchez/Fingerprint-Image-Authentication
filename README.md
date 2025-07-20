@@ -3,7 +3,7 @@
 ![](UTA-DataScience-Logo.png)
 
 
-This repository presents a computer vision project that aims to classify fingerprint images as either real or altered using the SOCOFing dataset. This project uses supervised deep learning methods for image classification and applies transfer learning, data augmentation, and model evaluation strategies to enhance performance. The SOCOFing dataset (Sokoto Coventry Fingerprint Dataset) contains over 6,000 fingerprint images from 600 African subjects, with both real and synthetically altered fingerprints across three levels of distortion (easy, medium, and hard). Dataset: (https://www.kaggle.com/datasets/ruizgara/socofing).
+This repository presents a computer vision project that aims to classify fingerprint images as either real or altered using the SOCOFing dataset. The SOCOFing dataset (Sokoto Coventry Fingerprint Dataset) contains over 6,000 fingerprint images from 600 African subjects, with both real and synthetically altered fingerprints across three levels of distortion (easy, medium, and hard). Dataset: (https://www.kaggle.com/datasets/ruizgara/socofing).
 
 ## Overview
 
